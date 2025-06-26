@@ -1,6 +1,7 @@
 package com.example.mordernbangladesh;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +17,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,23 +39,30 @@ public class MainActivity extends AppCompatActivity {
 
         mainDivisionListLayout = findViewById(R.id.mainDivisionListLayout);
 
-        divisionItemList.add(new DivisionItem("Dhaka", "test", "Khunla", "test"));
+        divisionItemList.add(new DivisionItem("Dhaka", "https://images.pexels.com/photos/32692708/pexels-photo-32692708.jpeg", "Khunla", "https://images.pexels.com/photos/27950031/pexels-photo-27950031.jpeg"));
         divisionItemList.add(new DivisionItem("Dhaka", "test", "Khunla", "test"));
         divisionItemList.add(new DivisionItem("Dhaka2", "test", "Khunla", "test"));
 
-        for(DivisionItem div: divisionItemList) {
+        for (DivisionItem div : divisionItemList) {
             View viewItem = LayoutInflater.from(this).inflate(R.layout.card_item, mainDivisionListLayout, false);
 
             TextView lname = viewItem.findViewById(R.id.cardLeftTitle);
             ImageView limg = viewItem.findViewById(R.id.cardLeftImage);
-
             TextView rname = viewItem.findViewById(R.id.cardRightTitle);
             ImageView rimg = viewItem.findViewById(R.id.cardRightImage);
 
             lname.setText(div.lname);
             rname.setText(div.rname);
-//            lname.setText(div.limage);
-//            lname.setText(div.rimage);
+
+            Glide.with(this)
+                    .load(div.limage)
+                    .apply(new RequestOptions())
+                    .into(limg);
+            Glide.with(this)
+                    .load(div.rimage)
+                    .apply(new RequestOptions())
+                    .into(rimg);
+
 
             LinearLayout leftCard = viewItem.findViewById(R.id.cardLeft);
             LinearLayout rightCard = viewItem.findViewById(R.id.cardRight);
@@ -78,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 }
 
 
