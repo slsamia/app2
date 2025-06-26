@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 public class JsonParser {
 
@@ -26,6 +27,9 @@ public class JsonParser {
 
         @SerializedName("name")
         public String name;
+
+        @SerializedName("image")
+        public String image;
 
         @SerializedName("history")
         public String history;
@@ -43,9 +47,10 @@ public class JsonParser {
         public Zila() {
         }
 
-        public Zila(String banner, String id, String name, String history, String geography, String economy, String education) {
+        public Zila(String banner, String id, String name,String image,  String history, String geography, String economy, String education) {
             this.banner = banner;
             this.id = id;
+            this.image = image;
             this.name = name;
             this.history = history;
             this.geography = geography;
@@ -58,6 +63,8 @@ public class JsonParser {
     public static class Division {
         @SerializedName("name")
         public String name;
+        @SerializedName("image")
+        public String image;
 
         @SerializedName("banner")
         public String banner;
@@ -69,10 +76,11 @@ public class JsonParser {
         public Division() {
         }
 
-        public Division(String name, String banner, Zila[] zilas) {
+        public Division(String name, String banner,   String image, Zila[] zilas) {
             this.name = name;
             this.banner = banner;
             this.zilas = zilas;
+            this.image = image;
         }
     }
 
@@ -197,6 +205,36 @@ public class JsonParser {
             Log.e("JsonParser", "Error loading all divisions data", e);
             return null;
         }
+    }
+    // Class to hold division name and banner
+    public static class DivisionSummary {
+        public String name;
+        public String image;
+
+
+        public DivisionSummary(String name, String image) {
+            this.name = name;
+            this.image = image;
+
+        }
+    }
+    // Method to get all division names and banners as a list
+    public static ArrayList<DivisionSummary> getAllDivisionSummaries(Context context) {
+        ArrayList<DivisionSummary> summaries = new ArrayList<>();
+
+        DataStructure data = getAllDivisionsData(context);
+        if (data == null) return summaries;
+
+        if (data.dhaka != null) summaries.add(new DivisionSummary(data.dhaka.name, data.dhaka.image));
+        if (data.chittagong != null) summaries.add(new DivisionSummary(data.chittagong.name, data.chittagong.image));
+        if (data.rajshahi != null) summaries.add(new DivisionSummary(data.rajshahi.name, data.rajshahi.image));
+        if (data.khulna != null) summaries.add(new DivisionSummary(data.khulna.name, data.khulna.image));
+        if (data.barisal != null) summaries.add(new DivisionSummary(data.barisal.name, data.barisal.image));
+        if (data.sylhet != null) summaries.add(new DivisionSummary(data.sylhet.name, data.sylhet.image));
+        if (data.rangpur != null) summaries.add(new DivisionSummary(data.rangpur.name, data.rangpur.image));
+        if (data.mymensingh != null) summaries.add(new DivisionSummary(data.mymensingh.name, data.mymensingh.image));
+
+        return summaries;
     }
 
     // Example usage in an Activity

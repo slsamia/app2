@@ -23,7 +23,7 @@ import com.bumptech.glide.request.RequestOptions;
 
 public class MainActivity extends AppCompatActivity {
 
-    List<DivisionItem> divisionItemList = new ArrayList<>();
+    ArrayList<JsonParser.DivisionSummary> divisionItemList = new ArrayList<>();
     LinearLayout mainDivisionListLayout;
 
     @Override
@@ -39,12 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
         mainDivisionListLayout = findViewById(R.id.mainDivisionListLayout);
 
-        divisionItemList.add(new DivisionItem("Dhaka", "https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg", "Khulna", "https://propertyguide.com.bd/_next/image?url=https%3A%2F%2Fpropertyguide-store.s3.ap-southeast-1.amazonaws.com%2Fbikroy%2Fmedium_Shahid_Hadis_Park_05c85ee74e.jpg&w=3840&q=75"));
-        divisionItemList.add(new DivisionItem("Barisal", "https://images.pond5.com/aerial-view-barisal-city-barisal-footage-249692329_iconl.jpeg", "Chittagong ", "https://media.istockphoto.com/id/1432128033/photo/chittagong-port-city-of-bangladesh-drone-view.jpg?s=612x612&w=0&k=20&c=26sHDneb2yvW0agy15hNRuxXLkGzqd4oTJ1JdEz0SYs="));
-        divisionItemList.add(new DivisionItem("Rajshahi", "https://dailyasianage.com/library/1662403733_8.jpg", "Mymensingh", "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mymensingh_photo_by_Mona_Mijthab_-_02.jpg"));
-        divisionItemList.add(new DivisionItem("Rangpur", "https://cdn.britannica.com/93/140293-050-09134FEF/Tajhat-Palace-Rangpur-Bangl.jpg", "Sylhet", "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2022/01/28/sylhet_talha-chowdhury.jpg"));
+        divisionItemList = JsonParser.getAllDivisionSummaries(this);
 
-        for (DivisionItem div : divisionItemList) {
+        for (int i=0;i<divisionItemList.size() -1;i = i+2) {
             View viewItem = LayoutInflater.from(this).inflate(R.layout.card_item, mainDivisionListLayout, false);
 
             TextView lname = viewItem.findViewById(R.id.cardLeftTitle);
@@ -52,15 +49,18 @@ public class MainActivity extends AppCompatActivity {
             TextView rname = viewItem.findViewById(R.id.cardRightTitle);
             ImageView rimg = viewItem.findViewById(R.id.cardRightImage);
 
-            lname.setText(div.lname);
-            rname.setText(div.rname);
+            JsonParser.DivisionSummary left = divisionItemList.get(i);
+            JsonParser.DivisionSummary right = divisionItemList.get(i+1);
+
+            lname.setText(left.name);
+            rname.setText(right.name);
 
             Glide.with(this)
-                    .load(div.limage)
+                    .load(left.image)
                     .apply(new RequestOptions())
                     .into(limg);
             Glide.with(this)
-                    .load(div.rimage)
+                    .load(right.image)
                     .apply(new RequestOptions())
                     .into(rimg);
 
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(MainActivity.this, Divisions.class);
-                    intent.putExtra("name", div.lname);
+                    intent.putExtra("name", left.name);
                     startActivity(intent);
                 }
             });
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(MainActivity.this, Divisions.class);
-                    intent.putExtra("name", div.rname);
+                    intent.putExtra("name", right.name);
                     startActivity(intent);
                 }
             });

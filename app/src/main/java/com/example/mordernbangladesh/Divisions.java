@@ -18,9 +18,12 @@ import androidx.core.view.WindowInsetsCompat;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
+import java.util.Objects;
+
 
 public class Divisions extends AppCompatActivity {
     LinearLayout mainZilaListLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,27 +36,33 @@ public class Divisions extends AppCompatActivity {
         });
 
         Intent intent = getIntent();
-        if(intent.hasExtra("name")) {
+        if (intent.hasExtra("name")) {
             this.setTitle(intent.getStringExtra("name"));
-        };
+        }
+        ;
 
 
         mainZilaListLayout = findViewById(R.id.mainZilaListLayout);
         String divisionName = intent.getStringExtra("name");
 
-        JsonParser.Division divisionData =  JsonParser.getDivisionData(this, divisionName);
+        JsonParser.Division divisionData = JsonParser.getDivisionData(this, divisionName);
 
-        if(divisionData == null) return;
+        if (divisionData == null) return;
 
         TextView divisionSummary = findViewById(R.id.divisionSummary);
+        ImageView divisionTopImage = findViewById(R.id.divisionTopImage);
+
         divisionSummary.setText(divisionData.banner);
+        Glide.with(this)
+                .load(divisionData.image)
+                .apply(new RequestOptions())
+                .into(divisionTopImage);
 
 
-        JsonParser.Zila a = divisionData.zilas[1];
-        for(int i=0;i<divisionData.zilas.length-1;i = i+2) {
+        for (int i = 0; i < divisionData.zilas.length - 1; i = i + 2) {
 
             JsonParser.Zila lZila = divisionData.zilas[i];
-            JsonParser.Zila rZila = divisionData.zilas[i+1];
+            JsonParser.Zila rZila = divisionData.zilas[i + 1];
             View viewItem = LayoutInflater.from(this).inflate(R.layout.card_item, mainZilaListLayout, false);
 
             TextView lname = viewItem.findViewById(R.id.cardLeftTitle);
@@ -64,14 +73,18 @@ public class Divisions extends AppCompatActivity {
             lname.setText(lZila.name);
             rname.setText(rZila.name);
 
-//            Glide.with(this)
-//                    .load(div.limage)
-//                    .apply(new RequestOptions())
-//                    .into(limg);
-//            Glide.with(this)
-//                    .load(div.rimage)
-//                    .apply(new RequestOptions())
-//                    .into(rimg);
+            if (!Objects.equals(lZila.image, "") && lZila.image != null ) {
+                Glide.with(this)
+                        .load(lZila.image)
+                        .apply(new RequestOptions())
+                        .into(limg);
+            }
+            if (!Objects.equals(rZila.image, "") && rZila.image != null) {
+                Glide.with(this)
+                        .load(rZila.image)
+                        .apply(new RequestOptions())
+                        .into(rimg);
+            }
 
 
             LinearLayout leftCard = viewItem.findViewById(R.id.cardLeft);

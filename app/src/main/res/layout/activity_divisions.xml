@@ -19,6 +19,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
+                android:id="@+id/divisionTopImage"
                 android:layout_height="275dp"
                 android:src="@drawable/bng"  />
 
