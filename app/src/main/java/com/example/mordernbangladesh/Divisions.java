@@ -1,5 +1,6 @@
 package com.example.mordernbangladesh;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -20,5 +21,10 @@ public class Divisions extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Intent intent = getIntent();
+        if(intent.hasExtra("name")) {
+            this.setTitle(intent.getStringExtra("name"));
+        };
     }
 }
