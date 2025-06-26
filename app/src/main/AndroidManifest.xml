@@ -15,12 +15,10 @@
         tools:targetApi="31">
         <activity
             android:name=".SingleDistrict"
-            android:exported="false"
-            android:parentActivityName=".Divisions" />
+            android:exported="false" />
         <activity
             android:name=".Divisions"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:exported="false" />
 
         <activity
             android:name=".MainActivity"

@@ -39,9 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
         mainDivisionListLayout = findViewById(R.id.mainDivisionListLayout);
 
-        divisionItemList.add(new DivisionItem("Dhaka", "https://images.pexels.com/photos/32692708/pexels-photo-32692708.jpeg", "Khunla", "https://images.pexels.com/photos/27950031/pexels-photo-27950031.jpeg"));
-        divisionItemList.add(new DivisionItem("Dhaka", "test", "Khunla", "test"));
-        divisionItemList.add(new DivisionItem("Dhaka2", "test", "Khunla", "test"));
+        divisionItemList.add(new DivisionItem("Dhaka", "https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg", "Khulna", "https://propertyguide.com.bd/_next/image?url=https%3A%2F%2Fpropertyguide-store.s3.ap-southeast-1.amazonaws.com%2Fbikroy%2Fmedium_Shahid_Hadis_Park_05c85ee74e.jpg&w=3840&q=75"));
+        divisionItemList.add(new DivisionItem("Barisal", "https://images.pond5.com/aerial-view-barisal-city-barisal-footage-249692329_iconl.jpeg", "Chittagong ", "https://media.istockphoto.com/id/1432128033/photo/chittagong-port-city-of-bangladesh-drone-view.jpg?s=612x612&w=0&k=20&c=26sHDneb2yvW0agy15hNRuxXLkGzqd4oTJ1JdEz0SYs="));
+        divisionItemList.add(new DivisionItem("Rajshahi", "https://dailyasianage.com/library/1662403733_8.jpg", "Mymensingh", "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mymensingh_photo_by_Mona_Mijthab_-_02.jpg"));
+        divisionItemList.add(new DivisionItem("Rangpur", "https://cdn.britannica.com/93/140293-050-09134FEF/Tajhat-Palace-Rangpur-Bangl.jpg", "Sylhet", "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2022/01/28/sylhet_talha-chowdhury.jpg"));
 
         for (DivisionItem div : divisionItemList) {
             View viewItem = LayoutInflater.from(this).inflate(R.layout.card_item, mainDivisionListLayout, false);
