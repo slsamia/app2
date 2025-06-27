@@ -1,0 +1,698 @@
+{
+  "Barisal": {
+    "name": "Barishal",
+    "image": "https://images.pond5.com/aerial-view-barisal-city-barisal-footage-249692329_iconl.jpeg",
+    "banner": "Known as the 'Granary of Bengal' for its fertile lands.",
+    "zila": [
+      {
+        "banner": "Barishal city, nicknamed 'Venice of the East'.",
+        "image": "https://images.pond5.com/aerial-view-barisal-city-barisal-footage-249692329_iconl.jpeg",
+        "economy": "Primarily agricultural (rice, jute), fisheries, and small-scale industries.",
+        "education": "Good literacy rate, home to Barishal University and numerous colleges.",
+        "geography": "Flat deltaic plain, crisscrossed by many rivers (Kirtonkhola, Arial Khan). Prone to tidal surges.",
+        "history": "Anciently known as Bakla-Chandradwip. Became Bakerganj district in 1797 under British rule. A major center of the Swadeshi movement. Barishal Division was established in 1993.",
+        "id": "BAR",
+        "name": "Barishal"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Char_Kukri-Mukri_Wildlife_Sanctuary.jpg",
+        "banner": "Largest island district of Bangladesh.",
+        "economy": "Agriculture (rice, betel leaf), fishing, and natural gas (Shahbazpur Gas Field).",
+        "education": "Developing, with primary and secondary schools, and some colleges.",
+        "geography": "A large deltaic island formed by the Meghna River's distributaries, vulnerable to cyclones and erosion.",
+        "history": "Part of the ancient Bakla kingdom. Elevated to a district in 1984. Witnessed devastating cyclones in 1970.",
+        "id": "BHOLA",
+        "name": "Bhola"
+      },
+      {
+        "image": "https://www.newsbangla24.com/assets/news_images/2021/04/09/Jhalakathi.jpg",
+        "banner": "Known for its abundant natural resources and waterways.",
+        "economy": "Agriculture (rice, betel nut), fishing, and small businesses.",
+        "education": "Average literacy, with schools and colleges.",
+        "geography": "Low-lying deltaic area, with a network of rivers (Sugandha, Bishkhali) and canals.",
+        "history": "Part of the ancient Chandradwip kingdom. Became a subdivision of Barishal district in 1890 and a full district in 1984.",
+        "id": "JHAL",
+        "name": "Jhalokati"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/AdminBuilding.jpg/1200px-AdminBuilding.jpg",
+        "banner": "Home to Kuakata, 'Daughter of the Sea' for its panoramic sea view.",
+        "economy": "Agriculture (rice, pulses), fishing, and growing tourism due to Kuakata beach.",
+        "education": "Improving, with various educational institutions including Patuakhali Science and Technology University.",
+        "geography": "Coastal district in the southern part of Bangladesh, with the Bay of Bengal to its south. Prone to natural disasters.",
+        "history": "Once part of the Bakerganj district. Formed as a separate district in 1969.",
+        "id": "PATU",
+        "name": "Patuakhali"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Floating_market_%2CBarisal.JPG/250px-Floating_market_%2CBarisal.JPG",
+        "banner": "Characterized by its dense network of rivers and canals.",
+        "economy": "Agriculture (rice, betel nut), fishing, and small cottage industries.",
+        "education": "Developing educational infrastructure.",
+        "geography": "A southern deltaic district, intersected by numerous rivers including the Baleshwar and Kocha. Part of the Sundarbans ecosystem.",
+        "history": "Part of the historical Bakla kingdom. Became a subdivision in 1875 and a district in 1984.",
+        "id": "PIRO",
+        "name": "Pirojpur"
+      },
+      {
+        "image": "https://beta.ieducationbd.com/store/3/District%20Thumbnail/barguna.png",
+        "banner": "Southernmost district of Barishal Division, known for its coastal beauty.",
+        "economy": "Agriculture (rice, pulses), fishing, and some tourism potential (Kuakata adjacent areas, Fatrar Char).",
+        "education": "Growing educational facilities.",
+        "geography": "Coastal district bordered by the Bay of Bengal, with extensive mangrove forests and waterways.",
+        "history": "Part of the ancient Sundarbans area, gradually settled. Became a subdivision in 1969 and a district in 1984.",
+        "id": "BARG",
+        "name": "Barguna"
+      }
+    ]
+  },
+  "Chittagong": {
+    "name": "Chittagong",
+    "image": "https://media.istockphoto.com/id/1432128033/photo/chittagong-port-city-of-bangladesh-drone-view.jpg?s=612x612&w=0&k=20&c=26sHDneb2yvW0agy15hNRuxXLkGzqd4oTJ1JdEz0SYs=",
+    "banner": "The commercial capital and main seaport of Bangladesh.",
+    "zila": [
+      {
+        "image": "https://media.istockphoto.com/id/1432128033/photo/chittagong-port-city-of-bangladesh-drone-view.jpg?s=612x612&w=0&k=20&c=26sHDneb2yvW0agy15hNRuxXLkGzqd4oTJ1JdEz0SYs=",
+        "banner": "Site of the largest seaport of Bangladesh.",
+        "economy": "Major industrial and commercial hub, export-import activities, garment industry, shipbuilding, and fishing.",
+        "education": "High literacy rate, home to University of Chittagong, Chittagong Medical College, and numerous other institutions.",
+        "geography": "Coastal district with hills to the east and the Bay of Bengal to the west. Crossed by rivers like Karnaphuli, Halda, and Sangu.",
+        "history": "Has a rich ancient history as a major port city. Ruled by various empires including Arakanese, Mughals, and British. Played a significant role in the Bangladesh Liberation War.",
+        "id": "CHAT",
+        "name": "Chittagong"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeQKeYSdRHnOXbPK7glGY4wbesvM5HpInMzg&s",
+        "banner": "The most remote and least populous hill district, known for its scenic beauty.",
+        "economy": "Agriculture (jhum cultivation, fruits), forestry, and increasing tourism (Boga Lake, Nilgiri, Sangu River).",
+        "education": "Lower literacy rate compared to plains, but efforts are ongoing to improve access.",
+        "geography": "Mountainous region, part of the Chittagong Hill Tracts, with dense forests, numerous small rivers, and waterfalls.",
+        "history": "Inhabited by various ethnic groups. Became a district in 1981, with a unique administrative system under the Hill District Councils.",
+        "id": "BAND",
+        "name": "Bandarban"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLjAoyOt0PeNP96YpPR6wAS-J0ivtihRiY2Q&s",
+        "banner": "Known as the cultural capital of Bangladesh, with a rich heritage in music and literature.",
+        "economy": "Agriculture (rice, jute), natural gas, fisheries, and small industries (e.g., re-rolling mills).",
+        "education": "Good literacy, with numerous schools and colleges, including Brahmanbaria Medical College.",
+        "geography": "Mostly flat farmland, part of the Gangetic Plain, bounded by rivers like Meghna and Titas.",
+        "history": "Part of the ancient Samatata region. Was a subdivision of Cumilla (formerly Tripura) district. Became a separate district in 1984. Home to many nationalist leaders.",
+        "id": "BRAH",
+        "name": "Brahmanbaria"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoUNUyneWJ7q0nrt6IMoc3iEd-SFTM70mJCw&s",
+        "banner": "Famous as 'Hilsha City' for its abundance of Hilsha fish.",
+        "economy": "Fishing (especially Hilsha), agriculture (rice, jute), and riverine trade.",
+        "education": "Developing, with various educational institutions.",
+        "geography": "Deltaic plain at the confluence of the Meghna, Padma, and Dakatia rivers, making it a major river port.",
+        "history": "Part of greater Cumilla district. Established as a subdivision in 1878 and a district in 1984. Known for historical sites like Rasti Shah Dargah.",
+        "id": "CHAD",
+        "name": "Chandpur"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Cox%27s_bazar_marine_drive-6.JPG",
+        "banner": "Home to the world's longest natural sea beach (120 km).",
+        "economy": "Tourism, fishing, salt farming, and aquaculture.",
+        "education": "Developing, with a focus on vocational training related to tourism and fisheries.",
+        "geography": "Coastal district along the Bay of Bengal, with hills to the east. Prone to cyclones.",
+        "history": "Named after Captain Hiram Cox of the British East India Company. Was a subdivision of Chattogram district until it became a district in 1984.",
+        "id": "COXS",
+        "name": "Cox's Bazar"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Comilla_City_%284%29-01.jpg/1200px-Comilla_City_%284%29-01.jpg",
+        "banner": "Known for Mainamati archaeological site and BARD (Bangladesh Academy for Rural Development).",
+        "economy": "Primarily agriculture (rice, jute), cottage industries (Khadi textiles), and a growing export processing zone (CEPZ).",
+        "education": "High literacy, with Comilla University, Comilla Medical College, and many other institutions.",
+        "geography": "Located in the eastern part of Bangladesh, bordered by Tripura (India) to the east. Features include the Lalmai-Mainamati hills.",
+        "history": "Established as a district by the British in 1790 (then Tripura District). Renamed Cumilla in 2018. Site of ancient Buddhist monasteries.",
+        "id": "CUMI",
+        "name": "Cumilla"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvo2xmPHOY3c3dE2iUSpXGhLoZixGKbZ-Phh65SZ9K_mu028n3kfSo5c_MRC58jhYukIg&usqp=CAU",
+        "banner": "Gateway to southeastern Bangladesh, strategically located on the Dhaka–Chittagong corridor.",
+        "economy": "Agriculture (rice), small industries, and trade due to its strategic location.",
+        "education": "Developing educational infrastructure.",
+        "geography": "Coastal district in the southeast, characterized by the Feni River. Part of the larger Noakhali plains.",
+        "history": "Historically part of greater Noakhali, Cumilla, and Tripura. Became a subdivision in 1876 and a district in 1984. Named after the Feni River.",
+        "id": "FANI",
+        "name": "Feni"
+      },
+      {
+        "image": "https://file-chittagong.portal.gov.bd/files/www.khagrachhari.gov.bd/page/3e985934_2144_11e7_8f57_286ed488c766/02.JPG",
+        "banner": "One of the three hill districts, known for its scenic beauty and indigenous cultures.",
+        "economy": "Agriculture (jhum cultivation, fruits), forestry, and limited tourism.",
+        "education": "Lower literacy rate, efforts being made to improve access to education.",
+        "geography": "Hilly terrain, part of the Chittagong Hill Tracts, with valleys and forests. Crossed by the Chengi and Myani rivers.",
+        "history": "Inhabited by various ethnic groups. Became a subdivision in 1983 and a district in 1984, with a special administrative system.",
+        "id": "KHAG",
+        "name": "Khagrachari"
+      },
+      {
+        "image": "https://propertyguide-store.s3.ap-southeast-1.amazonaws.com/bikroy/Lakshmipur_1_31925f4d12.jpg",
+        "banner": "A coastal district with a rich agricultural base.",
+        "economy": "Agriculture (rice, jute, betel nut), fishing, and some small industries.",
+        "education": "Growing educational facilities.",
+        "geography": "Low-lying coastal plain, influenced by the Meghna River and its distributaries. Prone to tidal floods.",
+        "history": "Part of the ancient Bhulua kingdom. Became a subdivision in 1979 and a district in 1984.",
+        "id": "LAKH",
+        "name": "Lakshmipur"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Bazra_Shahi_Mosque_2.jpg",
+        "banner": "Known for its unique Noakhali dialect and historical significance.",
+        "economy": "Agriculture (rice, betel leaf), fishing, and developing small and medium industries.",
+        "education": "Good literacy, with Noakhali Science and Technology University and various colleges.",
+        "geography": "Coastal district in the southeastern part of Bangladesh, heavily influenced by the Meghna estuary, leading to land erosion and accretion.",
+        "history": "Established as a district in 1821 (then Bhulua district). Played a significant role in the anti-colonial movements.",
+        "id": "NOGK",
+        "name": "Noakhali"
+      },
+      {
+        "image": "https://cdn.britannica.com/80/137580-050-9C6A745A/Hanging-Bridge-Kaptai-Lake-Rangamati-Bangl.jpg",
+        "banner": "The largest district in Bangladesh, characterized by its vast hills and lakes.",
+        "economy": "Agriculture (jhum cultivation, fruits), forestry, and hydropower (Kaptai Dam). Tourism is growing.",
+        "education": "Lower literacy rate, but with specific initiatives for indigenous communities.",
+        "geography": "Hilly region, part of the Chittagong Hill Tracts. Home to Kaptai Lake, the largest artificial lake in Bangladesh.",
+        "history": "Inhabited by various ethnic groups. Became a district in 1981, with a special administrative structure.",
+        "id": "RANG",
+        "name": "Rangamati"
+      }
+    ]
+  },
+  "Dhaka": {
+    "name": "Dhaka",
+    "image": "https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg",
+    "banner": "The capital city and largest metropolitan area of Bangladesh.",
+    "zila": [
+      {
+        "image": "https://cdn.britannica.com/97/189797-050-1FC0041B/Night-view-Dhaka-Bangladesh.jpg",
+        "banner": "Bustling capital, center of politics, economy, and culture.",
+        "economy": "Dominant service sector, garments industry, finance, trade, and IT.",
+        "education": "Highest literacy rate, home to numerous public and private universities (Dhaka University, BUET, DUET, Jahangirnagar University, etc.), medical colleges, and schools.",
+        "geography": "Flat deltaic land, surrounded by rivers like Buriganga, Turag, and Dhaleshwari.",
+        "history": "Dates back to the 7th century, became the Mughal capital of Bengal in 1610 (Jahangirnagar). Developed as a major commercial center under British rule. Capital of Bangladesh since 1971.",
+        "id": "DHAKA",
+        "name": "Dhaka"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Judge_court_faridpur.jpg/250px-Judge_court_faridpur.jpg",
+        "banner": "Known for its fertile agricultural lands and jute production.",
+        "economy": "Primarily agriculture (jute, rice, onion), some small-scale industries.",
+        "education": "Developing, with a medical college, government colleges, and schools.",
+        "geography": "Flat deltaic plain, crisscrossed by rivers like Padma, Arial Khan, and Kumar.",
+        "history": "Part of the ancient Vanga kingdom. Named after the Sufi saint Shah Fariduddin. Became a district in 1815. Home to poet Jasimuddin and Bir Shrestha Munshi Abdur Rouf.",
+        "id": "FARID",
+        "name": "Faridpur"
+      },
+      {
+        "image": "https://www.ieducationbd.com/store/3/District%20Thumbnail/gazipur.png",
+        "banner": "Industrial hub with a significant garment industry.",
+        "economy": "Large-scale industries (garments, textiles), agriculture (rice), and growing urbanization.",
+        "education": "Developing, with various universities (Gazipur Agricultural University, Islamic University of Technology), colleges, and vocational institutes.",
+        "geography": "Located north of Dhaka, with the Turag and Balu rivers flowing through it. Features like Bhawal National Park.",
+        "history": "Historically significant as a strategic region. Site of the first armed resistance during the Liberation War. Became a district in 1984.",
+        "id": "GAZIP",
+        "name": "Gazipur"
+      },
+      {
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/a5/91/4c/amritdhara-water-fal.jpg?w=500&h=500&s=1",
+        "banner": "Birthplace of the Father of the Nation, Bangabandhu Sheikh Mujibur Rahman.",
+        "economy": "Agriculture (rice, jute), fisheries, and small cottage industries.",
+        "education": "Home to Bangabandhu Sheikh Mujibur Rahman Science and Technology University and various other institutions.",
+        "geography": "Low-lying deltaic area, with numerous beels and haors. Connected by rivers like Madhumati and Garai.",
+        "history": "Part of ancient Bengal. Became a subdivision in 1937 and a district in 1984. Associated with the spread of Islam by Sufi saints.",
+        "id": "GOPAL",
+        "name": "Gopalganj"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREd9t9ea8ujMrdZcDTwdcTcSzpCZu8yZgTaw&s",
+        "banner": "Land of 'Haors' (wetlands) and home to President Md. Abdul Hamid.",
+        "economy": "Agriculture (rice), fisheries, and a large number of migrant workers' remittances.",
+        "education": "Developing, with several colleges and schools.",
+        "geography": "Characterized by extensive wetlands (haors) in the north-eastern part, which flood during monsoon. Intersected by rivers like Meghna.",
+        "history": "Part of ancient Samatata. Became a subdivision in 1869 and a district in 1984. Known for historical figures and movements.",
+        "id": "KISH",
+        "name": "Kishoreganj"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0_%E0%A6%B6%E0%A6%95%E0%A7%81%E0%A6%A8%E0%A6%BF_%E0%A6%B2%E0%A7%87%E0%A6%95.jpg",
+        "banner": "Known for the origin of the Faraizi Movement.",
+        "economy": "Agriculture (rice, jute), and small cottage industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Deltaic plain, situated on the bank of the Arial Khan river. Prone to river erosion.",
+        "history": "Formerly part of Faridpur district. Became a subdivision in 1869 and a district in 1984. Birthplace of Haji Shariatullah, leader of the Faraizi Movement.",
+        "id": "MADA",
+        "name": "Madaripur"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Baliati_Palace%2C_Saturia%2C_Manikganj_%2832%29.jpg",
+        "banner": "Famous for its Balanda (a type of sweet) and a bridge over the Dhaleshwari River.",
+        "economy": "Agriculture (rice, jute, vegetables), small industries, and fishing.",
+        "education": "Growing educational infrastructure.",
+        "geography": "Flat plain, intersected by the Dhaleshwari, Kaliganga, and Jamuna rivers.",
+        "history": "Part of the ancient Vanga kingdom. Became a subdivision in 1781 and a district in 1984. Known for its rich cultural heritage.",
+        "id": "MANIK",
+        "name": "Manikganj"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpb37Bd7FTjxXZbXEl1-wkXfl_9hrIgrCDA&s",
+        "banner": "Historical center of ancient Bengal, known for its archaeological sites (Bikrampur).",
+        "economy": "Agriculture (rice, jute, vegetables), fisheries, and some small industries.",
+        "education": "Developing, with a focus on vocational training.",
+        "geography": "Deltaic land, surrounded by rivers like Meghna, Padma, and Dhaleshwari. Prone to river erosion.",
+        "history": "Site of the ancient city of Bikrampur, a capital of Bengal. Has a rich archaeological heritage. Became a district in 1984.",
+        "id": "MUNS",
+        "name": "Munshiganj"
+      },
+      {
+        "image": "https://cdn.britannica.com/56/137156-004-9F1DEBC6/Narayanganj-banks-Bangl-Sitalakhya-River.jpg",
+        "banner": "Major industrial city, famous for jute mills and textile industries.",
+        "economy": "Industrial hub (jute, textiles, hosiery, dyeing), trade, and river transport.",
+        "education": "Good literacy, with numerous technical and general educational institutions.",
+        "geography": "Located near Dhaka, on the banks of the Shitalakshya River. A major river port.",
+        "history": "Developed as a significant industrial and commercial center during British rule, especially for jute trade. Became a district in 1984.",
+        "id": "NARA",
+        "name": "Narayanganj"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO5h4wTNgDy1nQl3HpnbMnlF2f7VfSyGia9A&s",
+        "banner": "Known for its fertile land and significant agricultural production.",
+        "economy": "Agriculture (rice, jute, sugarcane, vegetables), and small cottage industries.",
+        "education": "Developing educational facilities.",
+        "geography": "Flat plain, traversed by the Meghna and Shitalakshya rivers.",
+        "history": "Part of the ancient Samatata region. Became a subdivision in 1980 and a district in 1984. Site of various historical battles.",
+        "id": "NARS",
+        "name": "Narsingdi"
+      },
+      {
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/94/5b/13/mohera-jomidar-bari.jpg?w=400&h=300&s=1",
+        "banner": "Border district known for its 'Balakhana' (traditional houses) and historical sites.",
+        "economy": "Agriculture (rice, jute, sugarcane), and traditional crafts.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Located on the banks of the Padma River, prone to river erosion and char lands.",
+        "history": "Part of the ancient Vanga kingdom. Became a subdivision in 1871 and a district in 1984. Named after Rajaram Roy, a local zamindar.",
+        "id": "RAJP",
+        "name": "Rajbari"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9MCWSZrMGoMpe3DrFV60vbG6dmtmU14u35Q&s",
+        "banner": "Known for its historical mosque, the ",
+        "economy": "Agriculture (rice, jute), fisheries, and small cottage industries.",
+        "education": "Developing educational infrastructure.",
+        "geography": "Low-lying deltaic area, traversed by the Padma and Arial Khan rivers. Prone to river erosion.",
+        "history": "Formerly part of Faridpur and Madaripur districts. Became a district in 1984. Named after Hazi Shariatullah.",
+        "id": "SHAR",
+        "name": "Shariatpur"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Atia_Mosque%2C_Tangail%2C_Bangladesh.jpg",
+        "banner": "Known for its handloom products and a rich cultural heritage.",
+        "economy": "Agriculture (rice, jute), handloom industry (saris), and diverse cottage industries.",
+        "education": "Good literacy, with Mawlana Bhashani Science and Technology University and many colleges.",
+        "geography": "Mostly flat plain, with the Jamuna River forming its western boundary. Features like Madhupur Tract.",
+        "history": "Part of ancient Samatata. Became a district in 1969. Known for its contribution to the Liberation War and for the Madhupur Sal Forest.",
+        "id": "TANG",
+        "name": "Tangail"
+      }
+    ]
+  },
+  "Khulna": {
+    "name": "Khulna",
+    "image": "https://propertyguide.com.bd/_next/image?url=https%3A%2F%2Fpropertyguide-store.s3.ap-southeast-1.amazonaws.com%2Fbikroy%2Fmedium_Shahid_Hadis_Park_05c85ee74e.jpg&w=3840&q=75",
+    "banner": "Khulna Division is the second largest of the eight divisions of Bangladesh. It has an area of 22,285 km2 (8,604 sq mi) and a population of 17,416,645 at the 2022 Bangladesh census (preliminary returns). Its headquarters and largest city is Khulna city in Khulna District.",
+    "zila": [
+      {
+        "image": "https://propertyguide.com.bd/_next/image?url=https%3A%2F%2Fpropertyguide-store.s3.ap-southeast-1.amazonaws.com%2Fbikroy%2Fmedium_Shahid_Hadis_Park_05c85ee74e.jpg&w=3840&q=75",
+        "banner": "Major industrial and port city, particularly known for jute and shipbuilding.",
+        "economy": "Industries (jute, newsprint, shipbuilding, fish processing), trade, and port activities (Mongla Port, though geographically in Bagerhat, serves Khulna).",
+        "education": "Good literacy, with Khulna University, Khulna University of Engineering & Technology (KUET), and medical colleges.",
+        "geography": "Low-lying deltaic region, intersected by numerous rivers like Rupsa and Bhairab. Close to the Sundarbans.",
+        "history": "Developed as an industrial center during British rule. Became a subdivision in 1882 and a district in 1884. Played a significant role in the Pakistan Movement and Liberation War.",
+        "id": "KHULNA",
+        "name": "Khulna"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sixty_Dome_Mosque_in_Bagerhat_Bangladesh.JPG",
+        "banner": "Home to the Sixty Dome Mosque and a significant part of the Sundarbans.",
+        "economy": "Forestry (Sundarbans), fishing, agriculture (rice), and aquaculture (shrimp).",
+        "education": "Developing, with primary and secondary schools, and some colleges.",
+        "geography": "Southern coastal district, dominated by the Sundarbans mangrove forest. Intersected by many rivers and canals.",
+        "history": "Named after the Muslim saint Khan Jahan Ali, who established Khalifatabad (present-day Bagerhat) in the 15th century. Became a district in 1984.",
+        "id": "BAGE",
+        "name": "Bagerhat"
+      },
+      {
+        "image": "https://www.cholozai.com/images/location/carew-and-co-chuadanga.webp",
+        "banner": "Westernmost district of Bangladesh, sharing a border with India.",
+        "economy": "Primarily agriculture (rice, sugarcane, wheat), and some small industries (e.g., Carew & Co. sugar mill and distillery).",
+        "education": "Developing, with various educational institutions.",
+        "geography": "Flat plain, with the Mathabhanga and Bhairab rivers flowing through it. Borders West Bengal, India.",
+        "history": "Formerly part of Nadia district (India). Became a subdivision in 1845 and a district in 1984. Served as the first temporary capital of Bangladesh during the Liberation War.",
+        "id": "CHUA",
+        "name": "Chuadanga"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jashore_Collectorate_Building%2C_Bangladesh.jpg",
+        "banner": "Historical city known for its significant role in the indigo rebellion.",
+        "economy": "Agriculture (rice, jute), fisheries, and some industries (e.g., pharmaceuticals).",
+        "education": "Good literacy, with Jashore University of Science and Technology and various colleges.",
+        "geography": "Flat plain, with rivers like Bhairab, Chitra, and Mukteswari. Shares a border with India.",
+        "history": "One of the oldest districts of Bangladesh, formed in 1781. Witnessed the Sepoy Mutiny and Indigo Rebellion. Played a vital role in the Liberation War.",
+        "id": "JESS",
+        "name": "Jashore"
+      },
+      {
+        "image": "https://photos.wikimapia.org/p/00/03/45/45/17_big.jpg",
+        "banner": "Known for its vibrant folk culture and traditional crafts.",
+        "economy": "Agriculture (rice, jute, sugarcane), and small cottage industries.",
+        "education": "Developing, with educational institutions.",
+        "geography": "Flat plain, intersected by rivers like Kumar, Chitra, and Gorai.",
+        "history": "Formerly part of Jessore district. Became a subdivision in 1879 and a district in 1984. Site of significant historical events.",
+        "id": "JHENA",
+        "name": "Jhenaidah"
+      },
+      {
+        "image": "https://i.ytimg.com/vi/zQYXRImcJk8/maxresdefault.jpg",
+        "banner": "Famous for Lalon Shah's shrine and traditional handicrafts like  Kushtia  Shahi  Pitha ",
+        "economy": "Agriculture (rice, jute, sugarcane, tobacco), traditional industries (handloom, sugar mills), and tourism (Lalon Akhra).",
+        "education": "Home to Islamic University, Kushtia Medical College, and numerous colleges.",
+        "geography": "Located on the banks of the Padma and Gorai rivers. Flat plain with fertile soil.",
+        "history": "Developed as a commercial center during British rule. Became a subdivision in 1860 and a district in 1897. Associated with famous literary figures like Lalon Shah and Mir Mosharraf Hossain.",
+        "id": "KUSHT",
+        "name": "Kushtia"
+      },
+      {
+        "image": "https://cdn.risingbd.com/media/imgAll/2021March/en/Untitled-1-2106131509-2106131617.jpg",
+        "banner": "Known for its rich cultural heritage and traditional music.",
+        "economy": "Agriculture (rice, jute), fisheries, and traditional crafts.",
+        "education": "Developing educational facilities.",
+        "geography": "Flat deltaic plain, intersected by rivers like Nabaganga and Garai.",
+        "history": "Formerly part of Jessore district. Became a subdivision in 1845 and a district in 1984. Associated with the spread of Vaishnavism.",
+        "id": "MAGE",
+        "name": "Magura"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbBKVVS5Ely50xLLg54qSTJOReDSHiiP6w&s",
+        "banner": "Smallest district of Bangladesh, known for its mangoes.",
+        "economy": "Agriculture (mangoes, rice, jute), and small industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Small, flat district bordering West Bengal, India. Rivers include Mathabhanga and Bhairab.",
+        "history": "Formerly part of Kushtia district. Became a subdivision in 1845 and a district in 1984. Site of the provisional government of Bangladesh during the Liberation War.",
+        "id": "MEHE",
+        "name": "Meherpur"
+      },
+      {
+        "image": "https://file-khulna.portal.gov.bd/uploads/0f1c5cdb-a79c-4362-83f8-49643c538047//663/b0e/891/663b0e8916454997526687.jpg",
+        "banner": "Home to the renowned painter S.M. Sultan.",
+        "economy": "Agriculture (rice, jute), fisheries, and traditional crafts.",
+        "education": "Developing, with focus on fine arts and vocational training.",
+        "geography": "Low-lying deltaic plain, intersected by rivers like Chitra and Nabaganga.",
+        "history": "Formerly part of Jessore district. Became a subdivision in 1861 and a district in 1984. Known for its rural beauty and cultural heritage.",
+        "id": "NARAIL",
+        "name": "Narail"
+      },
+      {
+        "image": "https://mansworldbangladesh.com/wp-content/uploads/elementor/thumbs/Untitled-design-1-1-q2kn031esukwk2ftqdp0i18w29sdlnduy5elhdwjk8.png",
+        "banner": "Southernmost district of Khulna Division, gateway to the Sundarbans.",
+        "economy": "Agriculture (rice, shrimp farming), fisheries, and forestry (Sundarbans).",
+        "education": "Developing, with various educational institutions.",
+        "geography": "Coastal district in the southwest, bordering the Sundarbans and West Bengal, India. Rivers include Kopotaksha and Malancha.",
+        "history": "Formerly part of Jessore district. Became a subdivision in 1861 and a district in 1984. Site of important battles during the Liberation War.",
+        "id": "SATI",
+        "name": "Satkhira"
+      }
+    ]
+  },
+  "Mymensingh": {
+    "name": "Mymensingh",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mymensingh_photo_by_Mona_Mijthab_-_02.jpg",
+    "banner": "Newly formed division, rich in culture and agriculture.",
+    "zila": [
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mymensingh_photo_by_Mona_Mijthab_-_02.jpg",
+        "banner": "Known for its 'Mymensingh Gitika' (folk ballads) and agricultural research.",
+        "economy": "Agriculture (rice, jute, maize), fisheries, and some small industries.",
+        "education": "Home to Bangladesh Agricultural University, Mymensingh Medical College, and numerous colleges.",
+        "geography": "Flat plain, with the Old Brahmaputra River flowing through it. Features like the Madhupur Tract.",
+        "history": "One of the largest districts during British rule, established in 1787. Significant center for the peasant movements. Became a division in 2015.",
+        "id": "MYME",
+        "name": "Mymensingh"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwCkLUp7Tj8r5-NZ7iD554zE8661j63tO1Xg&s",
+        "banner": "Known for its scenic beauty and the Brahmaputra River.",
+        "economy": "Agriculture (rice, jute, mustard), and some small industries.",
+        "education": "Developing, with various educational institutions.",
+        "geography": "Flat plain, located on the banks of the Brahmaputra River. Prone to floods.",
+        "history": "Formerly part of Mymensingh district. Became a subdivision in 1845 and a district in 1978. Site of various historical events.",
+        "id": "JAMAL",
+        "name": "Jamalpur"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Beautiful_Durgapur.jpg/330px-Beautiful_Durgapur.jpg",
+        "banner": "Known for its natural beauty, including wetlands (haors) and hills.",
+        "economy": "Agriculture (rice, fish), fisheries (haor areas), and small cottage industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Located in the north-eastern part of Bangladesh, characterized by haors, rivers (Kangsha, Mogra), and some hills.",
+        "history": "Formerly part of Mymensingh district. Became a subdivision in 1882 and a district in 1984. Rich in folk culture.",
+        "id": "NETR",
+        "name": "Netrokona"
+      },
+      {
+        "image": "https://propertyguide.com.bd/_next/image?url=https%3A%2F%2Fpropertyguide-store.s3.ap-southeast-1.amazonaws.com%2Fbikroy%2Fmedium_Untitled_design_39_132663db72.jpg&w=3840&q=75",
+        "banner": "Known for its Garo hills and agricultural products.",
+        "economy": "Agriculture (rice, maize, ginger, turmeric), and forestry.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Hilly terrain to the north (Garo Hills), transitioning to plains in the south. Intersected by rivers like Kangsha and Brahmaputra.",
+        "history": "Formerly part of Mymensingh district. Became a subdivision in 1899 and a district in 1984. Home to the Garo ethnic group.",
+        "id": "SHER",
+        "name": "Sherpur"
+      }
+    ]
+  },
+  "Rajshahi": {
+    "name": "Rajshahi",
+    "image": "https://dailyasianage.com/library/1662403733_8.jpg",
+    "banner": "Known as the 'Silk City' and 'Education City' of Bangladesh.",
+    "zila": [
+      {
+        "image": "https://dailyasianage.com/library/1662403733_8.jpg",
+        "banner": "Famous for its silk industry, mangoes, and educational institutions.",
+        "economy": "Agriculture (mangoes, silk, rice), silk industry, and education.",
+        "education": "High literacy, home to Rajshahi University, Rajshahi Medical College, and many other institutions.",
+        "geography": "Flat plain, located on the banks of the Padma River. Fertile agricultural land.",
+        "history": "One of the oldest districts, established in 1772. Served as an administrative and educational hub during British rule. Significant role in the Liberation War.",
+        "id": "RAJS",
+        "name": "Rajshahi"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mahasthangar_Gokul_Medh_Bogra_Bangladesh_%283%29.JPG",
+        "banner": "Known as the 'Gate of North Bengal' and for its historical Mahasthangarh.",
+        "economy": "Agriculture (rice, vegetables), small and medium industries (e.g., agro-processing), and traditional crafts.",
+        "education": "Developing, with various colleges and schools.",
+        "geography": "Flat plain, with the Karatoya River flowing through it. Features like the Barind Tract.",
+        "history": "One of the oldest urban centers in Bangladesh (Mahasthangarh). Became a subdivision in 1821 and a district in 1823. Rich archaeological heritage.",
+        "id": "BOGU",
+        "name": "Bogura"
+      },
+      {
+        "image": "https://alchetron.com/cdn/chapai-nawabganj-district-f2b8f039-1675-4e6b-8c66-51bc56a0236-resize-750.jpeg",
+        "banner": "Mango capital of Bangladesh, known for its delicious varieties.",
+        "economy": "Agriculture (mangoes being dominant), fisheries, and some small industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Located in the northwestern part of Bangladesh, bordered by India. Rivers include Ganges (Padma) and Mahananda.",
+        "history": "Formerly a subdivision of Malda district (India). Became a subdivision of Rajshahi district in 1947 and a separate district in 1984. Rich in historical sites from the ancient Gaur kingdom.",
+        "id": "CHAP",
+        "name": "Chapainawabganj"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ZPT8JMSYI1iEyU-zDJ8fd6UkCGFRk3k25Q&s",
+        "banner": "Agricultural hub, known for its rice production.",
+        "economy": "Agriculture (rice, wheat), and small agro-based industries.",
+        "education": "Developing, with various educational institutions.",
+        "geography": "Flat plain, part of the Barind Tract. Rivers include Atrai and Punarbhaba.",
+        "history": "Formerly part of Rajshahi and Bogura districts. Became a subdivision in 1882 and a district in 1984.",
+        "id": "NAOG",
+        "name": "Naogaon"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPVQg1O8Hg_nwtcFqums4SG9gtE082PQLD2Q&s",
+        "banner": "Known for its traditional sweet  Kacha   Golla  and historical palaces.",
+        "economy": "Agriculture (rice, sugarcane), traditional sweetmeat industry, and some small industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Flat plain, with rivers like Atrai and Boral. Fertile agricultural land.",
+        "history": "Formerly part of Rajshahi district. Became a subdivision in 1845 and a district in 1984. Home to historical zamindar families and palaces.",
+        "id": "NATR",
+        "name": "Natore"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ3tDSAmLhaeNSUmE3KDhacB0Elv_XgJk-SQ&s",
+        "banner": "Known for the Hardinge Bridge and its agricultural output.",
+        "economy": "Agriculture (rice, jute, sugarcane), industries (sugar mills, paper mills), and traditional pottery.",
+        "education": "Developing, with various educational institutions.",
+        "geography": "Flat plain, located on the banks of the Padma and Jamuna rivers. Prone to river erosion.",
+        "history": "Formerly part of Rajshahi district. Became a subdivision in 1828 and a district in 1832. Known for its rich cultural heritage.",
+        "id": "PABN",
+        "name": "Pabna"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Al-Aman_Bahela_Khatun_Mosque_30.jpg",
+        "banner": "Center of the handloom industry in Bangladesh.",
+        "economy": "Handloom industry (saris, lungis), agriculture (rice, jute), and fisheries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Flat plain, intersected by the Jamuna and Dhaleshwari rivers. Prone to floods.",
+        "history": "Formerly part of Pabna district. Became a subdivision in 1845 and a district in 1984. Known for its contribution to the handloom sector.",
+        "id": "SIRAJ",
+        "name": "Sirajganj"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Shrine_besides_Small_mound_on_the_Eastern_bank_of_River_Tulshiganga.jpg/1200px-Shrine_besides_Small_mound_on_the_Eastern_bank_of_River_Tulshiganga.jpg",
+        "banner": "Smallest district in Rajshahi Division, known for its rice and potato production.",
+        "economy": "Agriculture (rice, potato, sugarcane), and some agro-based industries.",
+        "education": "Developing educational facilities.",
+        "geography": "Flat plain, with a relatively high land elevation. Rivers include Jamuna and Tulshiganga.",
+        "history": "Formerly part of Bogura district. Became a subdivision in 1982 and a district in 1984.",
+        "id": "JOYP",
+        "name": "Joypurhat"
+      }
+    ]
+  },
+  "Rangpur": {
+    "name": "Rangpur",
+    "image": "https://cdn.britannica.com/93/140293-050-09134FEF/Tajhat-Palace-Rangpur-Bangl.jpg",
+    "banner": "Center of North Bengal, known for its tobacco and historical sites.",
+    "zila": [
+      {
+        "image": "https://cdn.britannica.com/93/140293-050-09134FEF/Tajhat-Palace-Rangpur-Bangl.jpg",
+        "banner": "Divisional headquarters, known for its rich history and cultural heritage.",
+        "economy": "Agriculture (rice, jute, tobacco, potato), small and medium industries, and tobacco processing.",
+        "education": "Home to Begum Rokeya University, Rangpur Medical College, and various other colleges.",
+        "geography": "Flat plain, with rivers like Teesta, Ghaghot, and Jamuneshwari. Features like the Barind Tract in parts.",
+        "history": "One of the oldest districts of Bangladesh, established in 1772. Has a rich legacy of peasant movements and cultural figures.",
+        "id": "RANGPUR",
+        "name": "Rangpur"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI2_X-HORaGBAc4IAgXhSkvI3Ma4VjYYXL7Q&s",
+        "banner": "Known for its historical Kantajew Temple and the Teesta Barrage.",
+        "economy": "Agriculture (rice, wheat, potato), and some agro-based industries.",
+        "education": "Developing, with Dinajpur Medical College, Hajee Mohammad Danesh Science & Technology University, and numerous colleges.",
+        "geography": "Flat plain, with rivers like Atrai, Punarbhaba, and Tangon. Part of the Barind Tract.",
+        "history": "One of the oldest districts of British India, established in 1786. Rich archaeological and cultural heritage.",
+        "id": "DINAJ",
+        "name": "Dinajpur"
+      },
+      {
+        "image": "",
+        "banner": "Known for its char lands (river islands) and traditional   Gamcha  (local towel).",
+        "economy": "Agriculture (rice, jute), fisheries, and traditional weaving.",
+        "education": "Developing, with various educational institutions.",
+        "geography": "Dominated by the Jamuna and Brahmaputra rivers, with extensive char lands and flood-prone areas.",
+        "history": "Formerly part of Rangpur district. Became a subdivision in 1875 (as Bhabaniganj, renamed Gaibandha) and a district in 1984.",
+        "id": "GAIB",
+        "name": "Gaibandha"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL0Z6LXDjb0cbRsxMzy1tSIVgjQZde-xRFRQ&s",
+        "banner": "Known for its vast wetlands (haors) and the Brahmaputra River.",
+        "economy": "Agriculture (rice, jute), fisheries (especially in haor areas), and traditional crafts.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Dominated by the mighty Brahmaputra River and its distributaries, with many char lands and flood-prone areas.",
+        "history": "Formerly part of Rangpur district. Became a subdivision in 1875 and a district in 1984.",
+        "id": "KURI",
+        "name": "Kurigram"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Tista_Barrage_-_panoramio_%284%29.jpg",
+        "banner": "Border district, known for its Teesta Barrage project.",
+        "economy": "Agriculture (rice, jute, tobacco), and some agro-based industries.",
+        "education": "Developing educational facilities.",
+        "geography": "Flat plain, with the Teesta River flowing through it. Shares a border with India.",
+        "history": "Formerly part of Rangpur district. Became a subdivision in 1871 and a district in 1984. Known for its historical significance.",
+        "id": "LALM",
+        "name": "Lalmonirhat"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/%E0%A6%9A%E0%A6%BF%E0%A6%A8%E0%A6%BF_%E0%A6%AE%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%A6.jpg",
+        "banner": "Known for its traditional 'Nil' (indigo) cultivation in the past and fertile agricultural land.",
+        "economy": "Agriculture (rice, potato, maize), and some small industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Flat plain, with rivers like Jamuneshwari and Buritista. Part of the Barind Tract.",
+        "history": "Named after the indigo cultivation. Formerly part of Rangpur and Dinajpur districts. Became a subdivision in 1875 and a district in 1984.",
+        "id": "NILP",
+        "name": "Nilphamari"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNXILF_OK0g_pgvUdnEdL9inDORqAyv5dF_w&s",
+        "banner": "Northernmost district of Bangladesh, known for its tea gardens.",
+        "economy": "Agriculture (tea, rice, ginger, turmeric), and small agro-based industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Hilly terrain to the north, gradually becoming flat plains in the south. Borders India (West Bengal). Rivers include Karatoya and Atrai.",
+        "history": "Formerly part of Dinajpur district. Became a subdivision in 1856 and a district in 1984. Known for its tea estates.",
+        "id": "PANCH",
+        "name": "Panchagarh"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE_%E0%A6%AE%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%A6.jpg",
+        "banner": "Known for its sugarcane production and traditional crafts.",
+        "economy": "Agriculture (rice, sugarcane, wheat), and traditional crafts.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Flat plain, with rivers like Kulik and Nagar. Borders India (West Bengal).",
+        "history": "Formerly part of Dinajpur district. Became a subdivision in 1860 and a district in 1984. Site of various historical events.",
+        "id": "THAK",
+        "name": "Thakurgaon"
+      }
+    ]
+  },
+  "Sylhet": {
+    "name": "Sylhet",
+    "image": "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2022/01/28/sylhet_talha-chowdhury.jpg",
+    "banner": "Land of tea gardens and spiritual heritage.",
+    "zila": [
+      {
+        "image": "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2022/01/28/sylhet_talha-chowdhury.jpg",
+        "banner": "Famous for its tea gardens, holy shrines, and natural beauty.",
+        "economy": "Tea industry, agriculture (rice), natural gas, tourism, and remittances from abroad.",
+        "education": "High literacy, home to Shahjalal University of Science and Technology, Sylhet Medical College, and various other institutions.",
+        "geography": "Hilly terrain in the north and east, with a low-lying plain in the center (haors). Rivers include Surma and Kushiara.",
+        "history": "Anciently known as Srihatta. A major spiritual center due to the shrine of Hazrat Shah Jalal. Became a district in 1772 under British rule. Part of Assam until 1947.",
+        "id": "SYLHET",
+        "name": "Sylhet"
+      },
+      {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnekGSh5eCsH3nMPjlwv9PN9JNBSVIoQlMZQ&s",
+        "banner": "Known for its tea gardens and natural gas fields.",
+        "economy": "Tea industry, natural gas, agriculture (rice, pineapple), and some small industries.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Hilly terrain and plains, with wetlands (haors) in parts. Rivers include Kushiara and Barak.",
+        "history": "Formerly part of Sylhet district. Became a subdivision in 1878 and a district in 1984. Known for its role in the Battle of Sagarkandi during the Liberation War.",
+        "id": "HABIG",
+        "name": "Habiganj"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tea_Girl_Moulvi_Bazar.jpg/1200px-Tea_Girl_Moulvi_Bazar.jpg",
+        "banner": "Known as the 'Land of Tea' and for its beautiful lakes.",
+        "economy": "Tea industry, tourism (Lawachara National Park, Madhabkunda waterfall), agriculture (rice, pineapple), and natural gas.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Hilly terrain and plains, with wetlands (haors) and numerous tea gardens. Rivers include Manu and Dhalai.",
+        "history": "Formerly part of Sylhet district. Became a subdivision in 1852 and a district in 1984. Known for its natural beauty and diverse ethnic groups.",
+        "id": "MOUL",
+        "name": "Moulvibazar"
+      },
+      {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Niladri_Lake_%28139046231%29.jpg/1200px-Niladri_Lake_%28139046231%29.jpg",
+        "banner": "Land of vast wetlands (haors) and a significant source of freshwater fish.",
+        "economy": "Fisheries (haor areas), agriculture (Boro rice), and traditional crafts.",
+        "education": "Developing, with various schools and colleges.",
+        "geography": "Dominated by vast wetlands (haors) that are submerged during monsoon. Rivers include Surma and Kushiara.",
+        "history": "Formerly part of Sylhet district. Became a subdivision in 1877 and a district in 1984. Known for its natural beauty and biodiversity.",
+        "id": "SUNA",
+        "name": "Sunamganj"
+      }
+    ]
+  }
+}
