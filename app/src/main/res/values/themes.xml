@@ -3,7 +3,12 @@
     <style name="Base.Theme.MordernBangladesh" parent="Theme.Material3.Light">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
+
     <style name="Theme.MordernBangladesh" parent="Base.Theme.MordernBangladesh" />
+
+
 </resources>
