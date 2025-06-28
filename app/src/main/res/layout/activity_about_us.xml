@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Name : Samia Lutfe \nRoll Number : 634572 \nInstitute : Jashore Polytechnic Institute \nDepertment : Computer \nAddress : Bagherpara,Jashore
+            android:text="Name : Samia Lutfe \nRoll Number : 634572 \nInstitute : Jashore Polytechnic Institute \nDepertment : Computer \nAddress : Bagherpara,Jashore
 \nPhone Number : 01321574021
 "
             android:textSize="20dp"
