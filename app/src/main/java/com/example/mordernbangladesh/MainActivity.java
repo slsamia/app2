@@ -120,11 +120,38 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
 
         navigationView.setNavigationItemSelectedListener(menuItem -> {
-            switch (menuItem.getItemId()) {
-                default:
-                    Toast.makeText(this, "default clicked", Toast.LENGTH_SHORT).show();
-            }
             drawerLayout.closeDrawer(GravityCompat.START);
+
+            int id = menuItem.getItemId();
+            if (id == R.id.drawer_nav_home) return true;
+
+            String extraValue = "";
+
+
+            if (id == R.id.drawer_nav_dhaka) {
+                extraValue = "Dhaka";
+            } else if (id == R.id.drawer_nav_barisal) {
+                extraValue = "Barisal";
+            } else if (id == R.id.drawer_nav_chittagong) {
+                extraValue = "Chittagong";
+            } else if (id == R.id.drawer_nav_khulna) {
+                extraValue = "Khulna";
+            } else if (id == R.id.drawer_nav_Mymensighh) {
+                extraValue = "Mymensingh";
+            } else if (id == R.id.drawer_nav_Rajshahi) {
+                extraValue = "Rajshahi";
+            } else if (id == R.id.drawer_nav_rangpur) {
+                extraValue = "Rangpur";
+            } else if (id == R.id.drawer_nav_sylhet) {
+                extraValue = "Sylhet";
+            } else {
+                return true;
+            }
+
+            Intent intent = new Intent(MainActivity.this, Divisions.class);
+            intent.putExtra("name", extraValue);
+            startActivity(intent);
+
             return true;
         });
     }

@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/nav_home"
-        android:title="Home"
-        android:icon="@drawable/ic_launcher_foreground" />
-    <item android:id="@+id/nav_settings"
-        android:title="Settings"
-        android:icon="@drawable/ic_launcher_foreground" />
+    <item
+        android:id="@+id/drawer_nav_home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Home" />
+    <item
+        android:id="@+id/drawer_nav_dhaka"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Dhaka" />
+    <item
+        android:id="@+id/drawer_nav_khulna"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Khulna" />
+    <item
+        android:id="@+id/drawer_nav_Rajshahi"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Rajshahi" />
+    <item
+        android:id="@+id/drawer_nav_barisal"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Barisal" />
+    <item
+        android:id="@+id/drawer_nav_sylhet"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Sylhet" />
+    <item
+        android:id="@+id/drawer_nav_rangpur"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Rangpur" />
+    <item
+        android:id="@+id/drawer_nav_chittagong"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Chittagong" />
+    <item
+        android:id="@+id/drawer_nav_Mymensighh"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Mymensighh" />
 </menu>
